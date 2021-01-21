@@ -1,0 +1,10 @@
+com\tareas\coopeuch\config\CORSFilter.class
+com\tareas\coopeuch\controller\UserController.class
+com\tareas\coopeuch\model\User.class
+com\tareas\coopeuch\model\ApiResponse.class
+com\tareas\coopeuch\config\ExceptionAdvice.class
+com\tareas\coopeuch\CoopeuchApplication.class
+com\tareas\coopeuch\service\impl\UserServiceImpl.class
+com\tareas\coopeuch\model\UserDto.class
+com\tareas\coopeuch\service\UserService.class
+com\tareas\coopeuch\dao\UserDao.class
