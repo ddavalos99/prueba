@@ -26,7 +26,7 @@ public class CoopeuchApplication {
     public CommandLineRunner init(TareaDao tareaDao){
     	Date fecha1 = new Date();
     	Date fecha2 = new Date();
-    	
+    	/*Llenado Datos de Ejemplo para Base*/
         return args -> {
             Tarea tarea1 = new Tarea();
             tarea1.setDescripcion("Tarea1");
@@ -43,15 +43,3 @@ public class CoopeuchApplication {
     }
 
 }
-/*
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class CoopeuchApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(CoopeuchApplication.class, args);
-	}
-
-}*/

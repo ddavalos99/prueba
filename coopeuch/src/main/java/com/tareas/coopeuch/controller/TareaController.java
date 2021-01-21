@@ -4,6 +4,9 @@ import com.tareas.coopeuch.model.ApiResponse;
 import com.tareas.coopeuch.model.Tarea;
 import com.tareas.coopeuch.model.TareaDto;
 import com.tareas.coopeuch.service.TareaService;
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +16,7 @@ import java.util.List;
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/tareas")
+@EnableSwagger2
 public class TareaController {
 
 		@Autowired

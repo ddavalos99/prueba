@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.*;
 
+import org.springframework.lang.NonNull;
+
 @Entity
 @Table(name = "tarea")
 public class Tarea {
@@ -13,12 +15,15 @@ public class Tarea {
     private int id;
 	
     @Column
+    @lombok.NonNull
     private String descripcion;
     
     @Column
+    @lombok.NonNull
     private Date fechaCreacion;
     
     @Column
+    @lombok.NonNull
     private Boolean vigente;
 	
     public int getId() {
