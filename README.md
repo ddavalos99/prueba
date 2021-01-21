@@ -1,5 +1,5 @@
-# coopeuch
-Prueba Coopeuch
+# Coopeuch
+Prueba Coopeuch(Spring Boot + JPA + Swagger + Mysql)
 
 BackEnd Tareas:
 
