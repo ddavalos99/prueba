@@ -1,5 +1,5 @@
 # prueba
-Prueba Coopeuch(Spring Boot + JPA + Swagger + Mysql)
+Prueba (Spring Boot + JPA + Swagger + Mysql)
 
 Instalar cualquier cliente de Mysql (Ampp o Xampp)
 
