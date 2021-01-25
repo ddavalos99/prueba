@@ -11,9 +11,16 @@ Abrir Eclipse 2019:
 
 1.-Importar proyecto "Maven" en Eclipse
 
-2.-En carpeta de proyecto coopeuch boton derecho Run As Spring Boot App(Maven Install y Maven Clean)
+2.-Actualizar Dependencias POM de Maven
 
-3.-Revisar Api de servicios en navegador o Postman: 
+ -En carpeta de proyecto coopeuch boton derecho Maven Update Project (ó Alt + F5)
+
+3.-Compilar Proyecto y correr:
+
+ -En carpeta de proyecto coopeuch boton derecho (Maven Install)
+ -En carpeta de proyecto coopeuch boton derecho Run As Spring Boot App
+
+4.-Revisar Api de servicios en navegador o Postman: 
 
 API Servicio Tareas
 http://localhost:8080/tareas/
