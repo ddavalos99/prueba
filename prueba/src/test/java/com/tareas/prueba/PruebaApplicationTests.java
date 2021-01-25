@@ -1,10 +1,10 @@
-package com.tareas.coopeuch;
+package com.tareas.prueba;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CoopeuchApplicationTests {
+class PruebaApplicationTests {
 
 	@Test
 	void contextLoads() {
