@@ -13,12 +13,12 @@ Abrir Eclipse 2019:
 
 2.-Actualizar Dependencias POM de Maven
 
- -En carpeta de proyecto ******* boton derecho Maven Update Project (ó Alt + F5)
+ -En carpeta de proyecto Tarea boton derecho Maven Update Project (ó Alt + F5)
 
 3.-Compilar Proyecto y correr:
 
- -En carpeta de proyecto ******** boton derecho (Maven Install)
- -En carpeta de proyecto ******** boton derecho Run As Spring Boot App
+ -En carpeta de proyecto Tarea boton derecho (Maven Install)
+ -En carpeta de proyecto Tarea boton derecho Run As Spring Boot App
 
 4.-Revisar Api de servicios en navegador o Postman: 
 
