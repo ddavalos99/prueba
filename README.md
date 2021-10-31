@@ -1,4 +1,4 @@
-# prueba
+# Prueba
 Prueba (Spring Boot + JPA + Swagger + Mysql)
 
 Instalar cualquier cliente de Mysql (Ampp o Xampp)
