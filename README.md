@@ -1,4 +1,26 @@
 # prueba
+$ tree ./src/main/java/com/tareas/prueba/
+
+./src/main/java/com/tareas/prueba/
+├── PruebaApplication.java
+├── config
+│   ├── CORSFilter.java
+│   └── ExceptionAdvice.java
+├── controller
+│   └── TareaController.java
+├── domain
+│   └── User.java
+├── dao (repository)
+│   └── TareaDao.java
+├── model
+│   └── Tarea.java
+│   └── TareaDto.java
+│   └── ApiResponse.java
+└── service
+    └── TareaService.java
+    └── impl
+        └── TareaServiceimpl.java
+
 Prueba (Spring Boot + JPA + Swagger + Mysql)
 
 Instalar cualquier cliente de Mysql (Ampp o Xampp)
